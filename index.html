@@ -1,716 +1,331 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Noahscratch493</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/161503774?v=4" type="image/png"></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noahscratch493</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/161503774?v=4">
+<style>
+  /* Hover for big icons */
+  #projects a img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+</style>
+</head>
+<body>
 
-  <body>
-    <div id="loading">
-      <div id="spinner"></div>
+<div id="loading"><div id="spinner"></div></div>
+
+<div id="profile">
+  <div id="profile_img" style="background:url(https://avatars.githubusercontent.com/u/161503774?v=4) center;"></div>
+  <div id="username">
+    <span>Noahscratch493</span>
+    <a href="https://github.com/Noahscratch493">@Noahscratch493</a>
+  </div>
+  <div id="about">
+    <div class="socials">
+      <a href="https://www.youtube.com/@Noahscratch493" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.roblox.com/users/5166081376/profile" target="_blank"><i class="fas fa-gamepad"></i></a>
+      <a href="https://github.com/Noahscratch493" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://scratch.mit.edu/users/Noahscratch493/" target="_blank"><i class="fas fa-code"></i></a>
     </div>
+  </div>
+</div>
 
-    <div id="profile">
-      <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/161503774?v=4) center;"></div>
-      <div id="username">
-        <span style="display:block;">Noahscratch493</span>
-        <a href="https://github.com/Noahscratch493">@Noahscratch493</a>
-      </div>
+<div id="display">
 
-      <div id="about">
+<!-- PROJECTS SECTION -->
+<div id="projects">
+  <h1>Projects.</h1>
+  <div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap;">
 
-        <!-- socials (moved + updated) -->
-        <div class="socials">
+    <a href="https://cattymod.app" target="_blank" style="text-align:center;">
+      <img src="https://cattymod.app/images/apple-touch-icon.png"
+           style="width:100px;height:100px;border-radius:20px;box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+      <div style="margin-top:10px;">CattyMod</div>
+    </a>
 
-          <span>
-            <a href="https://www.youtube.com/@Noahscratch493" target="_blank">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </span>
+    <a href="https://scrooch-project.github.io" target="_blank" style="text-align:center;">
+      <img src="https://avatars.githubusercontent.com/u/221273265?s=200&v=4"
+           style="width:100px;height:100px;border-radius:20px;box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+      <div style="margin-top:10px;">Scrooch</div>
+    </a>
 
-          <span>
-            <a href="https://www.roblox.com/users/5166081376/profile" target="_blank">
-              <i class="fas fa-gamepad"></i>
-            </a>
-          </span>
+  </div>
+</div>
 
-          <span>
-            <a href="https://github.com/Noahscratch493" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </span>
+<!-- OTHER REPOS SECTION -->
+<div id="work">
+<h1>Other Repos.</h1>
+<div class="projects" id="work_section">
 
-          <span>
-            <a href="https://scratch.mit.edu/users/Noahscratch493/" target="_blank">
-              <i class="fas fa-code"></i>
-            </a>
-          </span>
+<!-- ALL YOUR REPOS BELOW -->
+<a href="https://github.com/Noahscratch493/Blank" target="_blank">
+<section>
+  <div class="section_title">Blank</div>
+  <div class="about_section"><span>A Blank Page</span></div>
+</section>
+</a>
 
-        </div>
+<a href="https://github.com/Noahscratch493/Noahscratch493" target="_blank">
+<section>
+  <div class="section_title">Noahscratch493</div>
+  <div class="about_section"><span>Config files for my GitHub profile.</span></div>
+</section>
+</a>
 
-      </div>
-    </div>
+<a href="https://github.com/Noahscratch493/CommandOS" target="_blank">
+<section>
+  <div class="section_title">CommandOS</div>
+  <div class="about_section"><span>CommandOS Is a Batch OS</span></div>
+</section>
+</a>
 
-    <div id="display">
+<a href="https://github.com/Noahscratch493/CommandOSPro" target="_blank">
+<section>
+  <div class="section_title">CommandOSPro</div>
+  <div class="about_section"><span>CommandOS is a Batch OS. In this Repository, You can download the other Editions.</span></div>
+</section>
+</a>
 
-      <!-- NEW PROJECTS SECTION -->
-      <div id="projects">
-        <h1>Projects.</h1>
-        <div class="projects">
+<a href="https://github.com/Noahscratch493/clippy-adventure-game" target="_blank">
+<section>
+  <div class="section_title">clippy-adventure-game</div>
+  <div class="about_section"><span>A Clippy the Paperclip game where Clippy tries to be a Star again</span></div>
+</section>
+</a>
 
-          <a href="https://cattymod.app" target="_blank">
-            <section>
-              <div class="section_title">
-                <img src="https://cattymod.app/images/apple-touch-icon.png" style="width:20px;height:20px;vertical-align:middle;margin-right:8px;">
-                CattyMod
-              </div>
-            </section>
-          </a>
+<a href="https://github.com/Noahscratch493/surfweb-search" target="_blank">
+<section>
+  <div class="section_title">surfweb-search</div>
+  <div class="about_section"><span>A Search Engine by Noahscratch493.</span></div>
+</section>
+</a>
 
-          <a href="https://scrooch-project.github.io" target="_blank">
-            <section>
-              <div class="section_title">
-                <img src="https://avatars.githubusercontent.com/u/221273265?s=200&v=4" style="width:20px;height:20px;vertical-align:middle;margin-right:8px;">
-                Scrooch
-              </div>
-            </section>
-          </a>
+<a href="https://github.com/Noahscratch493/PythonForScratch" target="_blank">
+<section>
+  <div class="section_title">PythonForScratch</div>
+  <div class="about_section"><span>Python for Scratch is like a Python Simulator in Scratch</span></div>
+</section>
+</a>
 
-        </div>
-      </div>
+<a href="https://github.com/Noahscratch493/.story-opener" target="_blank">
+<section>
+  <div class="section_title">.story-opener</div>
+  <div class="about_section"><span>A Simple Story Opener and Converter. It allows you to remember if it's a Story or not with the .story file extension</span></div>
+</section>
+</a>
 
-      <!-- RENAMED WORK -->
-      <div id="work">
-        <h1>Other Repos.</h1>
+<a href="https://github.com/Noahscratch493/YouTubeAPIForScratch" target="_blank">
+<section>
+  <div class="section_title">YouTubeAPIForScratch</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
 
-        <div class="projects" id="work_section">
-          <!-- (all your existing repo content stays EXACTLY the same here) -->
-                        <a href="https://github.com/Noahscratch493/Blank" target="_blank">
-                        <section>
-                            <div class="section_title">Blank</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Blank Page</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/Noahscratch493" target="_blank">
-                        <section>
-                            <div class="section_title">Noahscratch493</div>
-                            <div class="about_section">
-                            <span style="display:block;">Config files for my GitHub profile.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/CommandOS" target="_blank">
-                        <section>
-                            <div class="section_title">CommandOS</div>
-                            <div class="about_section">
-                            <span style="display:block;">CommandOS Is a Batch OS</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/CommandOSPro" target="_blank">
-                        <section>
-                            <div class="section_title">CommandOSPro</div>
-                            <div class="about_section">
-                            <span style="display:block;">CommandOS is a Batch OS. In this Repository, You can download the other Editions.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Batchfile</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/clippy-adventure-game" target="_blank">
-                        <section>
-                            <div class="section_title">clippy-adventure-game</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Clippy the Paperclip game where Clippy tries to be a Star again</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/surfweb-search" target="_blank">
-                        <section>
-                            <div class="section_title">surfweb-search</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Search Engine by Noahscratch493.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/PythonForScratch" target="_blank">
-                        <section>
-                            <div class="section_title">PythonForScratch</div>
-                            <div class="about_section">
-                            <span style="display:block;">Python for Scratch is like a Python Simulator in Scratch</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/.story-opener" target="_blank">
-                        <section>
-                            <div class="section_title">.story-opener</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Simple Story Opener and Converter. It allows you to remember if it's a Story or not with the .story file extension</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/YouTubeAPIForScratch" target="_blank">
-                        <section>
-                            <div class="section_title">YouTubeAPIForScratch</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/timer" target="_blank">
-                        <section>
-                            <div class="section_title">timer</div>
-                            <div class="about_section">
-                            <span style="display:block;">a timer tool made in makecode</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/SiriGameDownloader" target="_blank">
-                        <section>
-                            <div class="section_title">SiriGameDownloader</div>
-                            <div class="about_section">
-                            <span style="display:block;">These are Shortcut Games for Apple Devices (iPhone, Mac and Apple Watch).</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/musix-player" target="_blank">
-                        <section>
-                            <div class="section_title">musix-player</div>
-                            <div class="about_section">
-                            <span style="display:block;">A sleek, web-based music player with dark mode and responsive design for playing your favorite ncs tracks.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/Installer-Wizard" target="_blank">
-                        <section>
-                            <div class="section_title">Installer-Wizard</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Batchfile</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/Scratch-2-Legacy" target="_blank">
-                        <section>
-                            <div class="section_title">Scratch-2-Legacy</div>
-                            <div class="about_section">
-                            <span style="display:block;">Scratch 2 Legacy preserves the classic Scratch 2.0 editor by using a Flash emulator, allowing offline access to Scratch 2 projects without Flash.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/nebula-search" target="_blank">
-                        <section>
-                            <div class="section_title">nebula-search</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/noahscratch493.github.io" target="_blank">
-                        <section>
-                            <div class="section_title">noahscratch493.github.io</div>
-                            <div class="about_section">
-                            <span style="display:block;">Bio :D</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/smallbrowser" target="_blank">
-                        <section>
-                            <div class="section_title">smallbrowser</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Lightweight Browser that you can open in your browser!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/yt-tv-mode" target="_blank">
-                        <section>
-                            <div class="section_title">yt-tv-mode</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Python Script that shows the working YouTube TV Mode!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/cp2" target="_blank">
-                        <section>
-                            <div class="section_title">cp2</div>
-                            <div class="about_section">
-                            <span style="display:block;">Mix Control Panel with Modern!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/IEOpener-Plus" target="_blank">
-                        <section>
-                            <div class="section_title">IEOpener-Plus</div>
-                            <div class="about_section">
-                            <span style="display:block;">Open IE in Win 10/11 without problems!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Batchfile</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/NotepadBrowser" target="_blank">
-                        <section>
-                            <div class="section_title">NotepadBrowser</div>
-                            <div class="about_section">
-                            <span style="display:block;">Browse the web... In NOTEPAD?!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PowerShell</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/MountRE" target="_blank">
-                        <section>
-                            <div class="section_title">MountRE</div>
-                            <div class="about_section">
-                            <span style="display:block;">Mount Windows RE easily</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Batchfile</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/shortcutstore" target="_blank">
-                        <section>
-                            <div class="section_title">shortcutstore</div>
-                            <div class="about_section">
-                            <span style="display:block;">Download Shortcuts to add to your IOS Devices!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/scrooch-project/web-files" target="_blank">
-                        <section>
-                            <div class="section_title">web-files</div>
-                            <div class="about_section">
-                            <span style="display:block;">Scrooch is a Scratch 2/3 Mod Creator.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/BitOS" target="_blank">
-                        <section>
-                            <div class="section_title">BitOS</div>
-                            <div class="about_section">
-                            <span style="display:block;">An OS for Micro:bit</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/uitron" target="_blank">
-                        <section>
-                            <div class="section_title">uitron</div>
-                            <div class="about_section">
-                            <span style="display:block;">Create Electron Apps with Ease</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/clean-search" target="_blank">
-                        <section>
-                            <div class="section_title">clean-search</div>
-                            <div class="about_section">
-                            <span style="display:block;">Google search filtered to exclude AI content and Wikipedia results for cleaner, human-focused results.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/cattymod/ImproveMyScratch" target="_blank">
-                        <section>
-                            <div class="section_title">ImproveMyScratch</div>
-                            <div class="about_section">
-                            <span style="display:block;">Improve your Scratch skills!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/scrooch-project/Scrooch3" target="_blank">
-                        <section>
-                            <div class="section_title">Scrooch3</div>
-                            <div class="about_section">
-                            <span style="display:block;">Create an awesome Scratch Mod easily!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/cattymod/editor" target="_blank">
-                        <section>
-                            <div class="section_title">editor</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Little Scratch Mod :D</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/cattymod/linux" target="_blank">
-                        <section>
-                            <div class="section_title">linux</div>
-                            <div class="about_section">
-                            <span style="display:block;">CattyLinux - A New Mini Distro</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/octo-panic" target="_blank">
-                        <section>
-                            <div class="section_title">octo-panic</div>
-                            <div class="about_section">
-                            <span style="display:block;">A Cool Little Halloween Game!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/cattyrun" target="_blank">
-                        <section>
-                            <div class="section_title">cattyrun</div>
-                            <div class="about_section">
-                            <span style="display:block;">Official CattyRun website with a kid-friendly guide, game modes, and shop info. 🐱</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/androidy" target="_blank">
-                        <section>
-                            <div class="section_title">androidy</div>
-                            <div class="about_section">
-                            <span style="display:block;">The Perfect Android Emulator for iOS - No Jailbreaking!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/gecap" target="_blank">
-                        <section>
-                            <div class="section_title">gecap</div>
-                            <div class="about_section">
-                            <span style="display:block;">Recap your Google Search History</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/cattymod/docs" target="_blank">
-                        <section>
-                            <div class="section_title">docs</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; MDX</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/ScratchFrame" target="_blank">
-                        <section>
-                            <div class="section_title">ScratchFrame</div>
-                            <div class="about_section">
-                            <span style="display:block;">Embed more Scratch Details on your Websites</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/docs" target="_blank">
-                        <section>
-                            <div class="section_title">docs</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; MDX</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/scratchlite" target="_blank">
-                        <section>
-                            <div class="section_title">scratchlite</div>
-                            <div class="about_section">
-                            <span style="display:block;">The Coolest Scratch 2 Beta</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/wii-desktop" target="_blank">
-                        <section>
-                            <div class="section_title">wii-desktop</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/aurora-coding" target="_blank">
-                        <section>
-                            <div class="section_title">aurora-coding</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Noahscratch493/scrooch" target="_blank">
-                        <section>
-                            <div class="section_title">scrooch</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a></div>
-      </div>
-      <div id="forks" style="display:none;">
-        <h1>Forks.</h1>
-        <div class="projects" id="forks_section"></div>
-      </div>
-      <div id="blog_section">
-        <h1>Blog.</h1>
-        <div id="blogs"></div>
-      </div>
-      <div id="footer">
-        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
-      </div>
-    </div>
-    <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-      $.getJSON("blog.json", function(blog) {
-        blog = blog || [];
-        if (blog.length == 0) {
-          return (document.getElementById("blog_section").style.display =
-            "none");
-        }
-        for (var i = 0; i < blog.length; i++) {
-          $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
-        }
-      }).fail(function() {
-        return (document.getElementById("blog_section").style.display = "none");
-      });
-    </script>
+<a href="https://github.com/Noahscratch493/timer" target="_blank">
+<section>
+  <div class="section_title">timer</div>
+  <div class="about_section"><span>a timer tool made in makecode</span></div>
+</section>
+</a>
 
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+<a href="https://github.com/Noahscratch493/SiriGameDownloader" target="_blank">
+<section>
+  <div class="section_title">SiriGameDownloader</div>
+  <div class="about_section"><span>These are Shortcut Games for Apple Devices (iPhone, Mac and Apple Watch).</span></div>
+</section>
+</a>
 
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+<a href="https://github.com/Noahscratch493/musix-player" target="_blank">
+<section>
+  <div class="section_title">musix-player</div>
+  <div class="about_section"><span>A sleek, web-based music player with dark mode and responsive design for playing your favorite ncs tracks.</span></div>
+</section>
+</a>
 
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
-    </script>
-  
+<a href="https://github.com/Noahscratch493/Installer-Wizard" target="_blank">
+<section>
+  <div class="section_title">Installer-Wizard</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
 
-</body></html>
+<a href="https://github.com/Noahscratch493/Scratch-2-Legacy" target="_blank">
+<section>
+  <div class="section_title">Scratch-2-Legacy</div>
+  <div class="about_section"><span>Scratch 2 Legacy preserves the classic Scratch 2.0 editor by using a Flash emulator, allowing offline access to Scratch 2 projects without Flash.</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/nebula-search" target="_blank">
+<section>
+  <div class="section_title">nebula-search</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
+
+<a href="https://github.com/scrooch-project/web-files" target="_blank">
+<section>
+  <div class="section_title">web-files</div>
+  <div class="about_section"><span>Scrooch is a Scratch 2/3 Mod Creator.</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/BitOS" target="_blank">
+<section>
+  <div class="section_title">BitOS</div>
+  <div class="about_section"><span>An OS for Micro:bit</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/uitron" target="_blank">
+<section>
+  <div class="section_title">uitron</div>
+  <div class="about_section"><span>Create Electron Apps with Ease</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/clean-search" target="_blank">
+<section>
+  <div class="section_title">clean-search</div>
+  <div class="about_section"><span>Google search filtered to exclude AI content and Wikipedia results for cleaner, human-focused results.</span></div>
+</section>
+</a>
+
+<a href="https://github.com/cattymod/ImproveMyScratch" target="_blank">
+<section>
+  <div class="section_title">ImproveMyScratch</div>
+  <div class="about_section"><span>Improve your Scratch skills!</span></div>
+</section>
+</a>
+
+<a href="https://github.com/scrooch-project/Scrooch3" target="_blank">
+<section>
+  <div class="section_title">Scrooch3</div>
+  <div class="about_section"><span>Create an awesome Scratch Mod easily!</span></div>
+</section>
+</a>
+
+<a href="https://github.com/cattymod/editor" target="_blank">
+<section>
+  <div class="section_title">editor</div>
+  <div class="about_section"><span>A Little Scratch Mod :D</span></div>
+</section>
+</a>
+
+<a href="https://github.com/cattymod/linux" target="_blank">
+<section>
+  <div class="section_title">linux</div>
+  <div class="about_section"><span>CattyLinux - A New Mini Distro</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/octo-panic" target="_blank">
+<section>
+  <div class="section_title">octo-panic</div>
+  <div class="about_section"><span>A Cool Little Halloween Game!</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/cattyrun" target="_blank">
+<section>
+  <div class="section_title">cattyrun</div>
+  <div class="about_section"><span>Official CattyRun website with a kid-friendly guide, game modes, and shop info. 🐱</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/androidy" target="_blank">
+<section>
+  <div class="section_title">androidy</div>
+  <div class="about_section"><span>The Perfect Android Emulator for iOS - No Jailbreaking!</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/gecap" target="_blank">
+<section>
+  <div class="section_title">gecap</div>
+  <div class="about_section"><span>Recap your Google Search History</span></div>
+</section>
+</a>
+
+<a href="https://github.com/cattymod/docs" target="_blank">
+<section>
+  <div class="section_title">docs</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/ScratchFrame" target="_blank">
+<section>
+  <div class="section_title">ScratchFrame</div>
+  <div class="about_section"><span>Embed more Scratch Details on your Websites</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/docs" target="_blank">
+<section>
+  <div class="section_title">docs</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/scratchlite" target="_blank">
+<section>
+  <div class="section_title">scratchlite</div>
+  <div class="about_section"><span>The Coolest Scratch 2 Beta</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/wii-desktop" target="_blank">
+<section>
+  <div class="section_title">wii-desktop</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/aurora-coding" target="_blank">
+<section>
+  <div class="section_title">aurora-coding</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
+
+<a href="https://github.com/Noahscratch493/scrooch" target="_blank">
+<section>
+  <div class="section_title">scrooch</div>
+  <div class="about_section"><span>undefined</span></div>
+</section>
+</a>
+
+</div>
+</div>
+
+<div id="footer">
+  <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+</div>
+
+<script>
+setTimeout(function() {
+  document.getElementById("loading").style.display = "none";
+}, 1500);
+
+const magicProjectsGrid = new MagicGrid({
+  container: "#work_section",
+  gutter: 30,
+  maxColumns: 2
+});
+
+$("document").ready(() => {
+  magicProjectsGrid.listen();
+});
+</script>
+
+</body>
+</html>
